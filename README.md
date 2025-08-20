@@ -30,3 +30,14 @@ Cet outil permet de scanner un réseau local (192.168.0.0/16 par défaut) avec *
 
 - `nmap` installé
 - `python3` installé
+
+## 📊 Exemple de rapport généré (CSV)
+
+| IP             | Hostname         | OS                           | Ports               |
+|----------------|------------------|-------------------------------|---------------------|
+| 192.168.1.10   | pc-salle1        | Windows 11 Pro                | 80/tcp, 3389/tcp    |
+| 192.168.1.20   | srv-backup       | Linux 5.4 (Ubuntu)            | 22/tcp, 443/tcp     |
+| 192.168.1.30   | imprimante-HP    | Embedded Linux                | 80/tcp              |
+| 192.168.1.40   | nas-synology     | Linux 3.X (Synology DSM)      | 5000/tcp, 22/tcp    |
+
+> Ce tableau est un exemple. Le contenu réel dépendra de ton réseau et des services détectés par Nmap.
